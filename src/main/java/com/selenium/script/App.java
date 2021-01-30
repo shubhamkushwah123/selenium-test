@@ -22,7 +22,7 @@ public class App {
 		
 		System.out.println("Welcome to the Selenium Scripts - It starts executing here");
 		
-		driver.get("http://3.15.233.188:8888/addressbook/");
+		driver.get("http://13.58.144.69:8888/addressbook/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		driver.findElement(By.className("v-button")).click();
