@@ -15,7 +15,7 @@ public class App {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/Users/shubham/Documents/Softwares/chrome-driver/chromedriver");
 		ChromeOptions chromeOptions = new ChromeOptions();
-		//chromeOptions.addArguments("--headless");
+		chromeOptions.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(chromeOptions);
 		
 		System.out.println("Welcome to the Selenium Scripts - It starts executing here");
