@@ -6,14 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
 
 public class App {
 
+	@Test
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/shubham/Documents/Softwares/chrome-driver/chromedriver");
 		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.addArguments("--headless");
+		//chromeOptions.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(chromeOptions);
 		
 		System.out.println("Welcome to the Selenium Scripts - It starts executing here");
