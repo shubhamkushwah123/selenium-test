@@ -18,7 +18,7 @@ public class App {
 		
 		System.out.println("Welcome to the Selenium Scripts - It starts executing here");
 		
-		driver.get("http://ec2-3-135-224-64.us-east-2.compute.amazonaws.com:8888/addressbook/");
+		driver.get("http://ec2-3-141-24-199.us-east-2.compute.amazonaws.com:8888/addressbook/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		driver.findElement(By.className("v-button")).click();
