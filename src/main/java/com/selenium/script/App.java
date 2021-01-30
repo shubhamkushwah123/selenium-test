@@ -11,7 +11,7 @@ public class App {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "/Users/shubham/Documents/Softwares/chrome-driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver");
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(chromeOptions);
